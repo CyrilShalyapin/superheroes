@@ -10,7 +10,7 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3000;
 
-const api_key = '101393268315402';
+const api_key = process.env.API_KEY;
 
 const heroes = {};
 
