@@ -1,1 +1,1 @@
-web: node backend/server.js
+web: webpack && node backend/server.js
