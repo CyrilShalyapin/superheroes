@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import { Card } from './components';
 import { heroConfigs } from './configs';
 import { HeroConfig } from './models';
 import './App.less';
 
-export default function App(): React.ReactElement {
+export default function App(): ReactElement {
     return (
         <div className="wrapper">
             {
